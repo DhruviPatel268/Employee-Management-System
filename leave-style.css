@@ -1,0 +1,137 @@
+.container {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    width: 1fr;
+    background: #bdcad1d8;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.container header {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container .form {
+    margin-top: 15px;
+}
+
+.form .reason {
+    width: 800px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.reason label {
+    color: black;
+    /* font-size: medium; */
+    align-self: center;
+}
+
+input::placeholder {
+    color: white;
+    /* Change this to the desired color */
+}
+
+.form :where(.reason input) {
+    /* position: relative; */
+    height: 35px;
+    width: 64%;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    margin-top: 5px;
+    margin-left: 60px;
+    border: 1px solid rgb(88, 128, 229);
+    border-radius: 6px;
+    padding: 0 15px;
+    background: #3b83be97;
+}
+
+.form .start-date {
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.start-date label {
+    color: black;
+    align-items: center;
+    width: 200px;
+}
+
+.start-date input:focus {
+    box-shadow: 0 1px 0 rgba(150, 222, 235, 0.1);
+}
+
+.form :where(.start-date input) {
+    /* position: relative; */
+    height: 35px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    margin-top: 5px;
+    margin-left: 35px;
+    border: 1px solid rgb(88, 128, 229);
+    border-radius: 6px;
+    padding: 0 15px;
+    background: #3b83be97;
+}
+
+.form .end-date {
+    display: flex;
+    width: 100px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.end-date label {
+    color: black;
+    align-items: center;
+    width: 100px;
+}
+
+.end-date input:focus {
+    box-shadow: 0 1px 0 rgba(150, 222, 235, 0.1);
+}
+
+.form :where(.end-date input) {
+    /* position: relative; */
+    height: 35px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    margin-top: 5px;
+    margin-left: 35px;
+    border: 1px solid rgb(88, 128, 229);
+    border-radius: 6px;
+    padding: 0 15px;
+    background: #3b83be97;
+}
+
+.form button {
+    height: 35px;
+    width: 100px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 100px;
+    
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: #3b83be97;
+    border: 1px solid rgb(88, 128, 229);
+  }
+  
+  .form button:hover {
+    background: #3b83be97;
+  }

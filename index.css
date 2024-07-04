@@ -1,0 +1,459 @@
+
+.container{
+    /* position: relative; */
+    display:inline;
+    justify-content: center;
+    width: 1fr;
+    background: #bdcad1d8;
+    padding: 25px;
+    margin: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-div {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    /* margin: 50px; */
+    margin-top: 100px;
+  }
+
+
+
+  .container .form {
+    margin-top: 15px;
+  }
+
+  .form .name-box {
+    width: 800px;
+    margin-top: 10px;
+    display: flex;
+  }
+  
+  .name-box label {
+    color: black;
+    /* font-size: medium; */
+    align-self: center;
+  }
+
+  input::placeholder {
+    color: white; /* Change this to the desired color */
+}
+  
+  .form :where(.name-box input) {
+    /* position: relative; */
+    height: 35px;
+    width: 64%;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    margin-top: 5px;
+    margin-left: 60px;
+    border: 1px solid rgb(88, 128, 229);
+    border-radius: 6px;
+    padding: 0 15px;
+    background: #3b83be97;
+  }
+
+  .form .mail-box {
+    width: 800px;
+    margin-top: 10px;
+    display: flex;
+  }
+  
+  .mail-box label {
+    color: black;
+    /* font-size: medium; */
+    align-self: center;
+  }
+  
+  .form :where(.mail-box input) {
+    /* position: relative; */
+    height: 35px;
+    width: 64%;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    margin-top: 5px;
+    margin-left: 84px;
+    border: 1px solid rgb(88, 128, 229);
+    border-radius: 6px;
+    padding: 0 15px;
+    background: #3b83be97;
+  }
+
+  .form .phone-box {
+    display: flex;
+    width: 340px;
+    margin-top: 10px;
+    margin-left: -12px;
+  }
+  
+  .phone-column{
+    /* display: flex; */
+    /* column-gap: 30px; */
+  }
+  .phone-box label {
+    color: black;
+    align-self: center;
+    width: 200px;
+    margin-right: 18px;
+  }
+  
+  .form :where(.phone-box input) {
+    /* position: relative; */
+    height: 35px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    margin-top: 5px;
+    margin-left: 0px;
+    border: 1px solid rgb(88, 128, 229);
+    border-radius: 6px;
+    padding: 0 15px;
+    background: #3b83be97;
+    margin-right: 0px;
+  }
+  
+  .phone-box input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .phone-box input{
+    width: 85%;
+    margin-right: 0px;
+  }
+
+  .form .username-box {
+    display: flex;
+    width: 450px;
+    margin-top: 10px;
+    margin-left: -30px;
+  }
+  
+  .username-box label {
+    color: black;
+    align-self: center;
+    width: 200px;
+    margin-right: 40px;
+  }
+  
+  .form :where(.username-box input) {
+    /* position: relative; */
+    height: 35px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    margin-top: 5px;
+    margin-left: 0px;
+    border: 1px solid rgb(88, 128, 229);
+    border-radius: 6px;
+    padding: 0 15px;
+    background: #3b83be97;
+    margin-right: 0px;
+  }
+  
+  .username-box input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .username-box input{
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .form .password-box {
+    display: flex;
+    width: 340px;
+    margin-top: 10px;
+    margin-left: -35px;
+  }
+  
+  .password-box label {
+    color: black;
+    align-self: center;
+    width: 250px;
+    
+  }
+  
+  .form :where(.password-box input) {
+    /* position: relative; */
+    height: 35px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    margin-top: 5px;
+    margin-left: 0px;
+    border: 1px solid rgb(88, 128, 229);
+    border-radius: 6px;
+    padding: 0 15px;
+    background: #3b83be97;
+    margin-right: 0px;
+    margin-left: 30px;
+  }
+  
+  .password-box input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .password-box input{
+    width: 85%;
+    margin-right: 0px;
+  }
+
+  .form .dob-box {
+    display: flex;
+    width: 340px;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: -5px;
+  }
+  
+  .dob-box label {
+    color: black;
+    align-items: center;
+    width: 170px;
+    margin-right: 7px;
+  }
+
+  .dob-box input:focus {
+    box-shadow: 0 1px 0 rgba(150, 222, 235, 0.1);
+  }
+  
+  .form :where(.dob-box input) {
+    /* position: relative; */
+    height: 35px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    margin-top: 5px;
+    margin-left: 35px;
+    border: 1px solid rgb(88, 128, 229);
+    border-radius: 6px;
+    padding: 0 15px;
+    background: #3b83be97;
+  }
+
+  .form .gender-box {
+    margin-top: 12px;
+    color: black;
+    display: flex;
+    /* margin-right: 10px;     */
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .form :where(.gender-option, .gender) {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    margin-left: 40px;
+    flex-wrap: nowrap;
+  }
+  
+  .form .gender {
+    column-gap: 5px;
+  }
+  
+  .gender input {
+    accent-color: #3b83be97;
+  }
+  
+  .form :where(.gender input, .gender label) {
+    cursor: pointer;
+  }
+  
+  .gender label {
+    color: black;
+  }
+
+  .form .age-box {
+    display: flex;
+    width: 250px;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  .age-box label {
+    color: black;
+  }
+  
+  .form :where(.age-box input) {
+    position: relative;
+    height: 35px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    margin-top: 5px;
+    margin-left: 100px;
+    border: 1px solid rgb(88, 128, 229);
+    border-radius: 6px;
+    padding: 0 15px;
+    background: #3b83be97;
+    margin-right: 0px;
+  }
+  
+  .age-box input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .age-box input{
+    width: 85%;
+    margin-right: 0px;
+  }
+
+  .form .role-box {
+    display: flex;
+    width: 340px;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  .role-box label {
+    color: black;
+  }
+  
+  .form :where(.role-box input) {
+    position: relative;
+    height: 35px;
+    width: 90%;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    margin-top: 5px;
+    margin-left: 100px;
+    border: 1px solid rgb(88, 128, 229);
+    border-radius: 6px;
+    padding: 0 15px;
+    background: #3b83be97;
+  }
+
+  .form .salary-box {
+    display: flex;
+    width: 340px;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  .salary-box label {
+    color: black;
+  }
+  
+  .form :where(.salary-box input) {
+    position: relative;
+    height: 35px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    margin-top: 5px;
+    margin-left: 85px;
+    border: 1px solid rgb(88, 128, 229);
+    border-radius: 6px;
+    padding: 0 15px;
+    background: #3b83be97;
+    margin-right: 0px;
+  }
+
+  .form .add-box {
+    display: flex;
+    width: 660px;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  .add-box label {
+    color: black;
+  }
+  
+  .form :where(.add-box input) {
+    position: relative;
+    height: 35px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    margin-top: 5px;
+    margin-left: 70px;
+    border: 1px solid rgb(88, 128, 229);
+    border-radius: 6px;
+    padding: 0 15px;
+    background: #3b83be97;
+  }
+
+  .form .country-box {
+    display: flex;
+    width: 340px;
+    margin-top: 8px;
+    align-items: center;
+  }
+  
+  .country-box label {
+    color: white;
+  }
+  
+  .form :where(.country-box select) {
+    position: relative;
+    height: 36px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    margin-top: 3px;
+    margin-left: 120px;
+    border: 1px solid rgb(88, 128, 229);
+    border-radius: 6px;
+    padding: 0 15px;
+    background: #3b83be97;
+  }
+
+  .btn-div{
+    display: flex;
+    justify-content: baseline;
+    width: 700px;
+  }
+
+  .form button {
+    height: 35px;
+    width: 100px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 100px;
+    
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: #3b83be97;
+    border: 1px solid rgb(88, 128, 229);
+  }
+  
+  .form button:hover {
+    background: #3b83be97;
+  }
+
+  .popup{
+    width:400px;
+    background-color: rgb(115, 176, 156);
+    position: absolute;
+    top: 0;
+    transform: translate(-50%,-50%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s;
+  }
+
+  .openPopup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+  }
+
+
